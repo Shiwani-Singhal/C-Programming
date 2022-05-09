@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    int num1;
+    printf("Enter the value of num1\n");
+    scanf("%d",&num1);
+    if(num1==1)
+    {
+        printf(" your num1 is equal to 1\n");
+    }
+     // else if( num1==2)
+      //{
+      //    printf(" your num1 is equal to 2\n");
+     // }
+      //else if(num1 == 3)
+     // {
+       //   printf(" your num1 is equal to 3\n ");
+    //  }
+      else
+      {
+          printf(" its not 1,2,3!\n");
+      }
+      return 0;
+}
